@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?> <resources                               
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">                            
+     <string name="legion_maintainer_name">mrfox2003</string> <string           
+     name="legion_device_name_summary">Xiaomi Redmi Note 10 Pro</string>        
+   <string name="legion_chipset_type_summary">Qualcomm Snapdragon 732G</string> 
+ <string name="legion_gpu_summary">Adreno 618</string>                          
+     <string name="legion_camera_mp_summary">108MP+8MP+5MP+2MP/16MP</string>    
+     <string name="legion_screen_type_summary">AMOLED 6.70</string>                    
+</resources> 
