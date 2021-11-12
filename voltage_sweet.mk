@@ -6,13 +6,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/sweet/device.mk)
 
 # Inherit common AOSP configurations
-$(call inherit-product, vendor/awaken/config/common_full_phone.mk)
+$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 USE_PIXEL_CHARGING := true
 TARGET_USES_BLUR := true
 TARGET_GAPPS_ARCH := arm64
 
-PRODUCT_NAME := awaken_sweet
+PRODUCT_NAME := voltage_sweet
 PRODUCT_DEVICE := sweet
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10 Pro
@@ -25,6 +25,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 BUILD_FINGERPRINT := Xiaomi/dipper/dipper:8.1.0/OPM1.171019.011/V9.5.5.0.OEAMIFA:user/release-keys
 
-# GApps
-USE_GAPPS := true
-WITH_GAPPS := true
+# Voltage OS Official
+VOLTAGE_BUILD_TYPE := OFFICIAL
